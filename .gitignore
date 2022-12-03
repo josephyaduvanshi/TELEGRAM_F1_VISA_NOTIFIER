@@ -8,6 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.gitignore
+.idea/
+.vscode/
+.gitattributes
 build/
 develop-eggs/
 dist/
