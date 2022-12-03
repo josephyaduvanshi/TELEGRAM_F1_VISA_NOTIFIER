@@ -25,19 +25,7 @@ pip install -r requirements.txt
 3. Create a twilio account and get the account_sid and auth_token.
 4. Create a mailgun account and get the api_key and domain.
 5. Create a mailjet account and get the api_key and api_secret.
-6. Create a .env file and add the following variables.
-    1. TELEGRAM_API_ID
-    2. TELEGRAM_API_HASH
-    3. TELEGRAM_PHONE_NUMBER
-    4. TWILIO_ACCOUNT_SID
-    5. TWILIO_AUTH_TOKEN
-    6. TWILIO_PHONE_NUMBER
-    7. MAILGUN_API_KEY
-    8. MAILGUN_DOMAIN
-    9. MAILJET_API_KEY
-    10. MAILJET_API_SECRET
-
-
+6. Create a .env file and add all the variables from the Constants file.
 ## Usage
     
     ```python
