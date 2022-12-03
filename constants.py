@@ -2,9 +2,12 @@ import os
 
 from dotenv import load_dotenv
 
+# It's loading the environment variables from the `.env` file.
 load_dotenv()
 
 
+# It's a class that contains all the constants that are used in the project
+# > The Constants class is a container for all the constants used in the program
 class Constants:
     TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
     TELEGRAM_BOT_TOKEN_PRIVATE = os.getenv("TELEGRAM_BOT_TOKEN_PRIVATE")
@@ -25,4 +28,3 @@ class Constants:
     PERSONAL_NUMBER = os.getenv("PERSONAL_NUMBER")
     PERSONAL_EMAIL = os.getenv("PERSONAL_EMAIL")
     TWILIO_MESSAGE_SERVICE_SID = os.getenv("TWILIO_MESSAGE_SERVICE_SID")
-
