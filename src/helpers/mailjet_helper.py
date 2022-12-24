@@ -1,7 +1,7 @@
 # Importing the Client class from the mailjet_rest module and the Constants class from the constants.py file.
 # module.
 from mailjet_rest import Client
-from constants import Constants
+from src.Constants.constants import Constants
 
 # Creating a mailjet client object.
 api_key = '{}'.format(Constants.MAILJET_PUBLIC_API_KEY)

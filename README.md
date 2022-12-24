@@ -1,4 +1,37 @@
-# TELEGRAM_F1_VISA_NOTIFIER
+# TELEGRAM F1 VISA NOTIFIER
+
+## Telegram Channel
+
+The script runs 24/7 on the Ubuntu server. You will never miss a date again.
+You can also host yourself on your own server by following the instructions and setting the configurations.
+
+**The channel is available at https://t.me/f1visadates**
+
+Feel free to join and share with your friends.
+
+<img width="595" alt="Screenshot 2022-12-24 at 5 55 38 PM" src="https://i.imgur.com/FC4hnho.png">
+
+## Email Subscription
+
+You can set the script to send an email when the desired date becomes accessible. Additionally, you can host yourself on
+your own server by following the instructions and configuring the settings.
+
+<img width="595" alt="Screenshot 2022-12-24 at 5 55 38 PM" src="https://i.imgur.com/dz61Xr9.png">
+
+## Phone / Text Subscription
+
+You can set the script to send a text message when the desired date becomes accessible. The script supports Twilio as of
+now.
+
+<img width="595" alt="Screenshot 2022-12-24 at 5 55 38 PM" src="https://i.imgur.com/MXx4sXG.jpg">
+
+## Private Telegram Bot / Channel
+
+You can set the script to send a message to your private telegram channel when the desired date becomes accessible.
+
+<img width="595" alt="Screenshot 2022-12-24 at 5 55 38 PM" src="https://i.imgur.com/hqvfy3N.png">
+
+## Introduction / Instructions
 
 A simple python script to notify you directly to your email and phone when the F1 visa appointment slots are available.
 You can set the date range and the script will notify you when the slots are available for the dates in the range.

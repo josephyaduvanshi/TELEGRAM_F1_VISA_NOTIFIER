@@ -9,6 +9,8 @@ load_dotenv()
 # It's a class that contains all the constants that are used in the project
 # > The Constants class is a container for all the constants used in the program
 class Constants:
+    main_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
     TELEGRAM_BOT_TOKEN_PRIVATE = os.getenv("TELEGRAM_BOT_TOKEN_PRIVATE")
     TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
