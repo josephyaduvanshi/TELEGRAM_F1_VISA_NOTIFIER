@@ -1,5 +1,5 @@
 import requests
-from constants import Constants
+from src.Constants.constants import Constants
 
 
 class MailgunHelper:

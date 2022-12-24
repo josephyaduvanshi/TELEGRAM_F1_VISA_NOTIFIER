@@ -1,10 +1,3 @@
-# TELEGRAM_F1_VISA_NOTIFIER
-<img width="595" alt="Screenshot 2022-12-24 at 5 55 38 PM" src="https://user-images.githubusercontent.com/97875347/209435777-303ee854-a846-4fa8-afb0-3d6ef55f5a00.png">
-## Telgram Channel
-The script runs 24/7 on the Ubuntu server. You will never miss a date again.
-You can also host yourself on your own server by following the instructions and setting the configurations.
-
-
 A simple python script to notify you directly to your email and phone when the F1 visa appointment slots are available.
 You can set the date range and the script will notify you when the slots are available for the dates in the range.
 I hope this helps you to get your visa appointment as soon as possible. Good luck!

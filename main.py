@@ -1,11 +1,11 @@
 from telethon import TelegramClient, events
 
-from constants import Constants
-from csv_helper import CSVHelper
-from mailgunhelper import MailgunHelper
-from mailjet_helper import send_email_message
-from telegram_helper import TelegramHelper
-from twilio_sms_helper import send_sms, send_sms_me
+from src.Constants.constants import Constants
+from src.helpers.csv_helper import CSVHelper
+from src.helpers.mailgunhelper import MailgunHelper
+from src.helpers.mailjet_helper import send_email_message
+from src.helpers.telegram_helper import TelegramHelper
+from src.helpers.twilio_sms_helper import send_sms, send_sms_me
 
 # Creating a client to connect to the telegram server.
 api_id = int(Constants.TELEGRAM_APP_ID)

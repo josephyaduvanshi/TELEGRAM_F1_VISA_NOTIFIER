@@ -1,5 +1,5 @@
 from twilio.rest import Client
-from constants import Constants
+from src.Constants.constants import Constants
 
 # Creating a client object which is used to send messages.
 account_sid = Constants.TWILIO_ACCOUNT_SID
