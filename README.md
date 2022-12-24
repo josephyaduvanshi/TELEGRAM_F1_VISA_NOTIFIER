@@ -67,6 +67,12 @@ pip install -r requirements.txt
 
     python main.py
 
+if you want to run the script in the background in ubuntu server, you can use the following command.
+
+    nohup python main.py &
+
+if you are using python 3.7 or above, you can just replace the python with python3 in the above commands.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
