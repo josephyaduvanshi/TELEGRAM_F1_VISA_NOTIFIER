@@ -51,6 +51,8 @@ I have used multiple packages for this project.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required packages.
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
